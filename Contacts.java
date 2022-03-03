@@ -21,6 +21,10 @@ public class Contacts {
 		this.phoneNumber = phoneNumber;
 		this.email = email;
 	}
+	
+	public String getFullName() {
+		return (firstName + " " + lastName);
+	}
 
 	@Override
     public String toString() {
