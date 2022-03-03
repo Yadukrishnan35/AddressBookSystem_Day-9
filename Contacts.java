@@ -21,7 +21,7 @@ public class Contacts {
 		this.phoneNumber = phoneNumber;
 		this.email = email;
 	}
-	
+	//getter-setter
 	public String getFirstName() {
 		return firstName;
 	}
@@ -100,7 +100,8 @@ public class Contacts {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	
+
+
 	public String getFullName() {
 		return (firstName + " " + lastName);
 	}
